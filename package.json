@@ -1,0 +1,15 @@
+{
+  "name": "express-mongoose",
+  "author": "Aqeel Malik - malik.aqeelarshad@gmail.com",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server",
+    "dev": "node --watch server"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1"
+  }
+}
