@@ -2,11 +2,11 @@
   "name": "express-mongoose",
   "author": "Aqeel Malik - malik.aqeelarshad@gmail.com",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node server",
-    "dev": "node --watch server"
+    "dev": "node --watch --env-file=.env server"
   },
   "dependencies": {
     "express": "^4.19.2",
